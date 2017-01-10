@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         webView.setWebViewClient(new WebViewClient());
 
-        webView.loadUrl("http://www.ainor.com.my");
+        //webView.loadUrl("http://www.ainor.com.my");
 
-
+        webView.loadData("<html><body><h1>Hello</h1></body></html>", "text/html", "UTF-8");
     }
 }
